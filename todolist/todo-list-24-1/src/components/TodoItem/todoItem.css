@@ -1,0 +1,33 @@
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.todo-item-left,
+.todo-item-right{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.todo-item-right button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #5e00b8;
+}
+
+.important{
+  color: green!important;
+}
+
+
+.todo-item-correct{
+    padding: 15px 0;
+    display: flex;
+    column-gap: 10px;
+}
